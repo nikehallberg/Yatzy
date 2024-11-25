@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Yatzy</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+</head>
+<body>
+    <h1>Yatzy</h1>
+    <h3>Yatzy rules:</h3>
+    <p class="info">Yatzy can be played solitaire or by any number of players. Players take turns rolling five dice. After each roll, the player chooses which dice to keep, and which to reroll. A player may reroll some or all of the dice up to two times on a turn. The player must put a score or zero into a score box each turn. The game ends when all score boxes are used. The player with the highest total score wins the game.</p>
+    <div id="game">
+        <p>Round: </p>
+        <p>Score: </p>
+        <div class="die" id="die1">1</div>
+        <div class="die" id="die2">2</div>
+        <div class="die" id="die3">3</div>
+        <div class="die" id="die4">4</div>
+        <div class="die" id="die5">5</div>
+        <button class="roll-btn" id="rollDice">Roll Dice</button>
+        <button id="nextTurn">Next Turn</button>
+        <div id="scoreboard">
+            <h3>Scoreboard</h3>
+            <ul>
+                <li id="ones">Ones: <span>0</span></li>
+                <li id="twos">Twos: <span>0</span></li>
+                <li id="threes">Threes: <span>0</span></li>
+                <li id="fours">Fours: <span>0</span></li>
+                <li id="fives">Fives: <span>0</span></li>
+                <li id="sixes">Sixes: <span>0</span></li>
+                <li id="threeOfKind">Three of a Kind: <span>0</span></li>
+                <li id="fourOfKind">Four of a Kind: <span>0</span></li>
+                <li id="fullHouse">Full House: <span>0</span></li>
+                <li id="smallStraight">Small Straight: <span>0</span></li>
+                <li id="largeStraight">Large Straight: <span>0</span></li>
+                <li id="yatzy">Yatzy: <span>0</span></li>
+                <li id="chance">Chance: <span>0</span></li>
+            </ul>
+        </div>
+
+    </div>
+    <p id="finalScore"></p>
+    <script src="Script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿body {
+    font-family: 'Sans Serif Collection';
+    text-align: center;
+}
+p {
+    text-align: left;
+    font-size: 12px;
+    width: 270px;
+    display: inline-block;
+}
+h3 {
+    text-align: left;
+    padding-left: 18px;
+}
+.start-btn {
+    font-size: 36px;
+    width: 120px;
+    height: 80px;
+}
+#game {
+    text-align: right;
+    display: inline-block;
+}
+.info {
+    left: 10px;
+}
+.die {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.die.held {
+    background-color: lightblue;
+}
+
+.die:hover {
+    background-color: lightgray;
+}
+
+.roll-btn, #nextTurn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.roll-btn:hover, #nextTurn:hover {
+    transform: scale(1.1);
+}
+
+#scoreboard {
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+}
+
+#scoreboard li {
+    list-style: none;
+    margin: 5px 0;
+}
